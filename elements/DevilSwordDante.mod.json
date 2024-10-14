@@ -1,0 +1,33 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 2,
+    "blockingRenderType": 0,
+    "texture": "dmc",
+    "customModelName": "devilsworddante:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Devil Sword Dante",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DevilMayCryInv"
+    },
+    "harvestLevel": 4,
+    "efficiency": 2.0,
+    "attackSpeed": 1.6,
+    "enchantability": 1,
+    "damageVsEntity": 13.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DevilSwordDanteLivingEntityIsHitWithTool"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "材質0.002": "coyote",
+        "材質2.002": "coyote",
+        "材質6": "coyote",
+        "材質1.002": "coyote",
+        "材質3.001": "coyote",
+        "材質4": "coyote",
+        "材質5": "coyote"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mat3": "ivory",
+        "mat2": "ivory",
+        "mat1": "ivory",
+        "mat6": "ivory",
+        "mat5": "ivory",
+        "mat4": "ivory"
+      },
+      "name": "default"
+    }
+  }
+}

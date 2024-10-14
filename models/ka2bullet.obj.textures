@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "unknownmaterial": "ka2bullet"
+      },
+      "name": "default"
+    }
+  }
+}

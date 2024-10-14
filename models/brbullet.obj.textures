@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mat01.001": "brbullet"
+      },
+      "name": "default"
+    }
+  }
+}

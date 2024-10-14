@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mat3": "dante",
+        "mat2": "dante",
+        "mat1": "dante",
+        "mat4": "dante"
+      },
+      "name": "default"
+    }
+  }
+}

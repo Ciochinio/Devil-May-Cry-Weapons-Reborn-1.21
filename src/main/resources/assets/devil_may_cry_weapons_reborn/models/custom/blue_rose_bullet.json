@@ -1,0 +1,13 @@
+{
+  "forge_marker": 1,
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "devil_may_cry_weapons_reborn:models/item/brbullet.obj",
+  "display": {
+    "gui": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, -10, 0 ],
+      "scale": [ 1.5, 1.5, 1.5 ]
+    }
+  }
+}

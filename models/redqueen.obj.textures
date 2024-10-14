@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mat1.001": "redqueen"
+      },
+      "name": "default"
+    }
+  }
+}

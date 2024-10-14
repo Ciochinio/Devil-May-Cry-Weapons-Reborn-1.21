@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mat3": "ebony",
+        "mat2": "ebony",
+        "mat1": "ebony",
+        "mat6": "ebony",
+        "mat5": "ebony",
+        "mat4": "ebony"
+      },
+      "name": "default"
+    }
+  }
+}

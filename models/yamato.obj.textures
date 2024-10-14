@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mat3": "yamato1",
+        "mat2": "yamato1",
+        "mat1": "yamato2"
+      },
+      "name": "default"
+    }
+  }
+}

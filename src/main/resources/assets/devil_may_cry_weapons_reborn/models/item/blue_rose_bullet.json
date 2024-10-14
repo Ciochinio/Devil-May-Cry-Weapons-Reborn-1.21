@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "devil_may_cry_weapons_reborn:models/item/brbullet.obj",
+  "textures": {
+    "mat01.001": "devil_may_cry_weapons_reborn:blocks/brbullet",
+    "particle": "devil_may_cry_weapons_reborn:items/dmc"
+  }
+}

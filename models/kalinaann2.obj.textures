@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mat3": "kalinaann2",
+        "mat2": "kalinaann2",
+        "mat1": "kalinaann2"
+      },
+      "name": "default"
+    }
+  }
+}

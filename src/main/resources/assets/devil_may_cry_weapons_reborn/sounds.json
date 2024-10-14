@@ -1,0 +1,98 @@
+{
+  "maxact": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:dmc4-max-act-sfx",
+        "stream": false
+      }
+    ]
+  },
+  "ebony.shot1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:ebony.shot1",
+        "stream": false
+      }
+    ]
+  },
+  "ivory.shot1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:ivory.shot1",
+        "stream": false
+      }
+    ]
+  },
+  "coyotea.shot1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:coyotea.shot1",
+        "stream": false
+      }
+    ]
+  },
+  "kalinaann.shot1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:kalinaann.shot1",
+        "stream": false
+      }
+    ]
+  },
+  "kalinaann.shot2": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:kalinaann.shot2",
+        "stream": false
+      }
+    ]
+  },
+  "bluerose.shot1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:bluerose.shot1",
+        "stream": false
+      }
+    ]
+  },
+  "yamato.swing1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:yamato.swing1",
+        "stream": false
+      }
+    ]
+  },
+  "redqueen.swing1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:redqueen.swing1",
+        "stream": false
+      }
+    ]
+  },
+  "devilsworddante.swing1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:devilsworddante.swing1",
+        "stream": false
+      }
+    ]
+  },
+  "rebellion.swing1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:rebellion.swing1",
+        "stream": false
+      }
+    ]
+  },
+  "devilswordsparda.swing1": {
+    "sounds": [
+      {
+        "name": "devil_may_cry_weapons_reborn:devilswordsparda.swing1",
+        "stream": false
+      }
+    ]
+  }
+}

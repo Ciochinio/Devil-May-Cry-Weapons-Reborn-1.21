@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mat2": "rebellion",
+        "mat1.002": "rebellion"
+      },
+      "name": "default"
+    }
+  }
+}

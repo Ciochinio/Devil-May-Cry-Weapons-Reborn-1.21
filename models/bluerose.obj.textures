@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Default_OBJ": "bluerose"
+      },
+      "name": "default"
+    }
+  }
+}
