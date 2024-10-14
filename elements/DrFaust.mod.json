@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 69,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -13,9 +13,11 @@
     "onHelmetTick": {
       "name": "DrFaustHelmetTickEvent"
     },
-    "creativeTab": {
-      "value": "CUSTOM:DevilMayCryInv"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DevilMayCryInv"
+      }
+    ],
     "armorTextureFile": "drfaust.",
     "helmetName": "Dr Faust",
     "bodyName": "Dr Faust Body",
@@ -61,6 +63,18 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
     "helmetPiglinNeutral": {
       "fixedValue": false
     },

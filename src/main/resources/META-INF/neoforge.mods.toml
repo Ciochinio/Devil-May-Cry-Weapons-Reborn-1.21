@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="devil_may_cry_weapons_reborn"
+version="1.5.1"
+displayName="Devil May Cry Weapons Reborn"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/devil-may-cry-weapons-reborn"
+logoFile="logo.png"
+credits="http://redboltmedia.net/"
+authors="Ciochu, RedBoltMedia"
+description="DMC Weapons In modern Minecraft!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.devil_may_cry_weapons_reborn]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.65,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.devil_may_cry_weapons_reborn]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

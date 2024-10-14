@@ -2,23 +2,26 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "  a",
-    "ab ",
-    "ca "
+    "aab",
+    "cab",
+    "d  "
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:iron_block"
     },
     "b": {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:tnt"
     },
     "c": {
+      "item": "minecraft:fire_charge"
+    },
+    "d": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "devil_may_cry_weapons_reborn:red_queen",
+    "id": "devil_may_cry_weapons_reborn:kalina_ann_i",
     "count": 1
   }
 }

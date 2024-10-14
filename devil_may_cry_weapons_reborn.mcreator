@@ -3,7 +3,6 @@
     {
       "name": "DevilMayCryInv",
       "type": "tab",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devil_may_cry_inv",
@@ -14,14 +13,13 @@
     {
       "name": "RedQueen",
       "type": "tool",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_queen",
       "metadata": {
         "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/red_queen.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/RedQueenItem.java"
+          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/RedQueenItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/red_queen.json"
         ]
       },
       "path": "~/Swords/RedQueen"
@@ -29,7 +27,6 @@
     {
       "name": "Rebellion",
       "type": "tool",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rebellion",
@@ -44,7 +41,6 @@
     {
       "name": "DMC",
       "type": "item",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dmc",
@@ -58,7 +54,6 @@
     {
       "name": "DevilSwordDante",
       "type": "tool",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devil_sword_dante",
@@ -73,7 +68,6 @@
     {
       "name": "Yamato",
       "type": "tool",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yamato",
@@ -88,7 +82,6 @@
     {
       "name": "DrFaustHelmetTickEvent",
       "type": "procedure",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dr_faust_helmet_tick_event",
@@ -108,7 +101,6 @@
     {
       "name": "DrFaust",
       "type": "armor",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dr_faust",
@@ -127,26 +119,24 @@
     {
       "name": "LT",
       "type": "loottable",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lt",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/loot_tables/chests/lt.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/loot_table/chests/lt.json"
         ]
       }
     },
     {
       "name": "RedQueenRecipe",
       "type": "recipe",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_queen_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/red_queen_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/red_queen_recipe.json"
         ]
       },
       "path": "~/Swords/RedQueen"
@@ -154,13 +144,12 @@
     {
       "name": "RebellionRecipe",
       "type": "recipe",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rebellion_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/rebellion_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/rebellion_recipe.json"
         ]
       },
       "path": "~/Swords/Rebellion"
@@ -168,13 +157,12 @@
     {
       "name": "DevilSwordSpardaRecipe",
       "type": "recipe",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devil_sword_sparda_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/devil_sword_sparda_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/devil_sword_sparda_recipe.json"
         ]
       },
       "path": "~/Swords/DevilSwordSparda"
@@ -182,13 +170,12 @@
     {
       "name": "DevilSwordDanteRecipe",
       "type": "recipe",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devil_sword_dante_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/devil_sword_dante_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/devil_sword_dante_recipe.json"
         ]
       },
       "path": "~/Swords/DevilSwordDante"
@@ -196,13 +183,12 @@
     {
       "name": "YamatoRecipe",
       "type": "recipe",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yamato_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/yamato_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/yamato_recipe.json"
         ]
       },
       "path": "~/Swords/Yamato"
@@ -210,13 +196,12 @@
     {
       "name": "IvoryRecipe",
       "type": "recipe",
-      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivory_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/ivory_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/ivory_recipe.json"
         ]
       },
       "path": "~/Guns/Ivory"
@@ -224,13 +209,12 @@
     {
       "name": "EbonyRecipe",
       "type": "recipe",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ebony_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/ebony_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/ebony_recipe.json"
         ]
       },
       "path": "~/Guns/Ebony"
@@ -238,13 +222,12 @@
     {
       "name": "CoyoteARecipe",
       "type": "recipe",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coyote_a_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/coyote_a_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/coyote_a_recipe.json"
         ]
       },
       "path": "~/Guns/CoyoteA"
@@ -252,7 +235,6 @@
     {
       "name": "RedQueenLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_queen_living_entity_is_hit_with_tool",
@@ -284,7 +266,6 @@
     {
       "name": "YamatoLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yamato_living_entity_is_hit_with_tool",
@@ -316,7 +297,6 @@
     {
       "name": "RebellionLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rebellion_living_entity_is_hit_with_tool",
@@ -348,7 +328,6 @@
     {
       "name": "DevilSwordDanteLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devil_sword_dante_living_entity_is_hit_with_tool",
@@ -380,7 +359,6 @@
     {
       "name": "DevilSwordSpardaLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devil_sword_sparda_living_entity_is_hit_with_tool",
@@ -412,7 +390,6 @@
     {
       "name": "CoyoteARangedItemUsed",
       "type": "procedure",
-      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coyote_a_ranged_item_used",
@@ -448,7 +425,6 @@
     {
       "name": "IvoryRangedItemUsed",
       "type": "procedure",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivory_ranged_item_used",
@@ -484,7 +460,6 @@
     {
       "name": "EbonyRangedItemUsed",
       "type": "procedure",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ebony_ranged_item_used",
@@ -520,14 +495,13 @@
     {
       "name": "DevilSwordSparda",
       "type": "tool",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devil_sword_sparda",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/DevilSwordSpardaItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_sparda.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_sparda.json",
+          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/DevilSwordSpardaItem.java"
         ]
       },
       "path": "~/Swords/DevilSwordSparda"
@@ -535,7 +509,6 @@
     {
       "name": "KalinaAnnIRangedItemUsed",
       "type": "procedure",
-      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_i_ranged_item_used",
@@ -571,7 +544,6 @@
     {
       "name": "KalinaAnnIIRangedItemUsed",
       "type": "procedure",
-      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_ii_ranged_item_used",
@@ -607,7 +579,6 @@
     {
       "name": "KalinaAnnIIProjectileHitsBlock",
       "type": "procedure",
-      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_ii_projectile_hits_block",
@@ -639,7 +610,6 @@
     {
       "name": "KalinaAnn1Bullet",
       "type": "item",
-      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_1_bullet",
@@ -654,7 +624,6 @@
     {
       "name": "KalinaAnn2Bullet",
       "type": "item",
-      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_2_bullet",
@@ -669,7 +638,6 @@
     {
       "name": "BlueRoseBullet",
       "type": "item",
-      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_rose_bullet",
@@ -684,7 +652,6 @@
     {
       "name": "KalinaAnnIProjectileHitsBlock",
       "type": "procedure",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_i_projectile_hits_block",
@@ -716,7 +683,6 @@
     {
       "name": "KalinaAnnIWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_i_while_projectile_flying_tick",
@@ -748,7 +714,6 @@
     {
       "name": "KalinaAnnIIWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_ii_while_projectile_flying_tick",
@@ -780,13 +745,12 @@
     {
       "name": "BlueRoseRecipe",
       "type": "recipe",
-      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_rose_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/blue_rose_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/blue_rose_recipe.json"
         ]
       },
       "path": "~/Guns/BlueRose"
@@ -794,13 +758,12 @@
     {
       "name": "KalinaAnnIIRecipe",
       "type": "recipe",
-      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_ii_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/kalina_ann_ii_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/kalina_ann_ii_recipe.json"
         ]
       },
       "path": "~/Guns/Kalinann2"
@@ -808,13 +771,12 @@
     {
       "name": "KalinaAnnIRecipe",
       "type": "recipe",
-      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_i_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/recipes/kalina_ann_i_recipe.json"
+          "src/main/resources/data/devil_may_cry_weapons_reborn/recipe/kalina_ann_i_recipe.json"
         ]
       },
       "path": "~/Guns/Kalinann1"
@@ -822,7 +784,6 @@
     {
       "name": "CoyoteAProjectile",
       "type": "projectile",
-      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coyote_a_projectile",
@@ -836,14 +797,13 @@
     {
       "name": "CoyoteA",
       "type": "item",
-      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coyote_a",
       "metadata": {
         "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/coyote_a.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/CoyoteAItem.java"
+          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/CoyoteAItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/coyote_a.json"
         ]
       },
       "path": "~/Guns/CoyoteA"
@@ -851,7 +811,6 @@
     {
       "name": "EbonyProjectile",
       "type": "projectile",
-      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ebony_projectile",
@@ -865,14 +824,13 @@
     {
       "name": "Ebony",
       "type": "item",
-      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ebony",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/EbonyItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ebony.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ebony.json",
+          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/EbonyItem.java"
         ]
       },
       "path": "~/Guns/Ebony"
@@ -880,7 +838,6 @@
     {
       "name": "IvoryProjectile",
       "type": "projectile",
-      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivory_projectile",
@@ -894,14 +851,13 @@
     {
       "name": "Ivory",
       "type": "item",
-      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivory",
       "metadata": {
         "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ivory.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/IvoryItem.java"
+          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/IvoryItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ivory.json"
         ]
       },
       "path": "~/Guns/Ivory"
@@ -909,7 +865,6 @@
     {
       "name": "KalinaAnnIProjectile",
       "type": "projectile",
-      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_i_projectile",
@@ -923,14 +878,13 @@
     {
       "name": "KalinaAnnI",
       "type": "item",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_i",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/KalinaAnnIItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_i.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_i.json",
+          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/KalinaAnnIItem.java"
         ]
       },
       "path": "~/Guns/Kalinann1"
@@ -938,7 +892,6 @@
     {
       "name": "KalinaAnnIIProjectile",
       "type": "projectile",
-      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_ii_projectile",
@@ -952,14 +905,13 @@
     {
       "name": "KalinaAnnII",
       "type": "item",
-      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kalina_ann_ii",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/KalinaAnnIIItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_ii.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_ii.json",
+          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/KalinaAnnIIItem.java"
         ]
       },
       "path": "~/Guns/Kalinann2"
@@ -967,7 +919,6 @@
     {
       "name": "BlueRoseProjectile",
       "type": "projectile",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_rose_projectile",
@@ -981,7 +932,6 @@
     {
       "name": "BlueRose",
       "type": "item",
-      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_rose",
@@ -996,7 +946,6 @@
     {
       "name": "BulletPlaceholder",
       "type": "projectile",
-      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bullet_placeholder",
@@ -1010,7 +959,6 @@
     {
       "name": "BlueRoseUsed",
       "type": "procedure",
-      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_rose_used",
@@ -1143,6 +1091,19 @@
       "subtitle": ""
     }
   ],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:DevilSwordSparda",
+      "~CUSTOM:Yamato",
+      "~CUSTOM:DevilSwordDante",
+      "~CUSTOM:Rebellion",
+      "~CUSTOM:RedQueen"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:DrFaust.helmet"
+    ]
+  },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "subtitles.yamato.swing1": "",
@@ -1156,8 +1117,8 @@
       "subtitles.dante": "",
       "subtitles.bluerose.shot1": "",
       "subtitles.coyotea.hit": "",
-      "subtitles.yamato": "",
       "itemGroup.tabdevil_may_cry_inv": "Devil May Cry ",
+      "subtitles.yamato": "",
       "item.devil_may_cry_weapons_rebirth.yamato": "Yamato",
       "subtitles.dante.swing": "",
       "subtitles.coyotea.shot1": "",
@@ -1269,22 +1230,20 @@
   "workspaceSettings": {
     "modid": "devil_may_cry_weapons_reborn",
     "modName": "Devil May Cry Weapons Reborn",
-    "version": "1.4.3",
+    "version": "1.5.1",
     "description": "DMC Weapons In modern Minecraft!",
     "author": "Ciochu, RedBoltMedia",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/devil-may-cry-weapons-reborn",
     "license": "All Rights Reserved",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "icon",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "neoforge-1.21.1",
     "credits": "http://redboltmedia.net/",
-    "modElementsPackage": "net.mcreator.devilmaycryweaponsreborn",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.mcreator.devilmaycryweaponsreborn"
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202400340615
 }

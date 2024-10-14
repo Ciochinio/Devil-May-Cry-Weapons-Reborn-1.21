@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 69,
   "_type": "item",
   "definition": {
     "renderType": 2,
@@ -9,9 +9,11 @@
     "states": [],
     "name": "Ebony",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "CUSTOM:DevilMayCryInv"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DevilMayCryInv"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 72000,
@@ -40,9 +42,11 @@
     },
     "enableRanged": true,
     "shootConstantly": false,
+    "rangedItemChargesPower": false,
     "projectile": {
       "value": "CUSTOM:BulletPlaceholder"
     },
+    "projectileDisableAmmoCheck": false,
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,

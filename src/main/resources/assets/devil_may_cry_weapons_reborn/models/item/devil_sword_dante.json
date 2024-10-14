@@ -1,9 +1,9 @@
 {
   "forge_marker": 1,
-  "parent": "forge:item/default",
-  "loader": "forge:obj",
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
   "model": "devil_may_cry_weapons_reborn:models/item/devilsworddante.obj",
-	"display" : {
+"display" : {
     "thirdperson_righthand": {
             "rotation": [ 0, 188, 0 ],
             "translation": [ -12.60, 3.0, -7.7 ],

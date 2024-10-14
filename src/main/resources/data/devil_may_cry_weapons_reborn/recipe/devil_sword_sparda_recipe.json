@@ -2,26 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aab",
-    "cab",
-    "d  "
+    "  a",
+    "ab ",
+    "ca "
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:iron_ingot"
     },
     "b": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:ender_eye"
     },
     "c": {
-      "item": "minecraft:fire_charge"
-    },
-    "d": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "devil_may_cry_weapons_reborn:kalina_ann_i",
+    "id": "devil_may_cry_weapons_reborn:devil_sword_sparda",
     "count": 1
   }
 }

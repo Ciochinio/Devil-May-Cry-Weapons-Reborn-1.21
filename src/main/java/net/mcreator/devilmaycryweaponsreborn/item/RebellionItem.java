@@ -1,47 +1,65 @@
 
 package net.mcreator.devilmaycryweaponsreborn.item;
 
-import net.minecraft.world.level.Level;
+import net.neoforged.neoforge.event.ModifyDefaultComponentsEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.network.chat.Component;
+import net.minecraft.tags.TagKey;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.core.component.DataComponents;
 
 import net.mcreator.devilmaycryweaponsreborn.procedures.RebellionLivingEntityIsHitWithToolProcedure;
+import net.mcreator.devilmaycryweaponsreborn.init.DevilMayCryWeaponsRebornModItems;
 
-import java.util.List;
-
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class RebellionItem extends SwordItem {
+	private static final Tier TOOL_TIER = new Tier() {
+		@Override
+		public int getUses() {
+			return 0;
+		}
+
+		@Override
+		public float getSpeed() {
+			return 2f;
+		}
+
+		@Override
+		public float getAttackDamageBonus() {
+			return 0;
+		}
+
+		@Override
+		public TagKey<Block> getIncorrectBlocksForDrops() {
+			return BlockTags.INCORRECT_FOR_WOODEN_TOOL;
+		}
+
+		@Override
+		public int getEnchantmentValue() {
+			return 1;
+		}
+
+		@Override
+		public Ingredient getRepairIngredient() {
+			return Ingredient.of();
+		}
+	};
+
 	public RebellionItem() {
-		super(new Tier() {
-			public int getUses() {
-				return 0;
-			}
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 12f, -2.4f)).fireResistant());
+	}
 
-			public float getSpeed() {
-				return 2f;
-			}
-
-			public float getAttackDamageBonus() {
-				return 11f;
-			}
-
-			public int getLevel() {
-				return 0;
-			}
-
-			public int getEnchantmentValue() {
-				return 1;
-			}
-
-			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
-			}
-		}, 3, -2.4f, new Item.Properties().fireResistant());
+	@SubscribeEvent
+	public static void handleToolDamage(ModifyDefaultComponentsEvent event) {
+		event.modify(DevilMayCryWeaponsRebornModItems.REBELLION.get(), builder -> builder.remove(DataComponents.MAX_DAMAGE));
 	}
 
 	@Override
@@ -49,10 +67,5 @@ public class RebellionItem extends SwordItem {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
 		RebellionLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
 		return retval;
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
 	}
 }

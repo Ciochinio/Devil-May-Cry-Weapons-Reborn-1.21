@@ -12,13 +12,18 @@ credits="http://redboltmedia.net/"
 authors="Ciochu, RedBoltMedia"
 description="DMC Weapons In modern Minecraft!"
 
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
 [[dependencies.devil_may_cry_weapons_reborn]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 
 
 
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

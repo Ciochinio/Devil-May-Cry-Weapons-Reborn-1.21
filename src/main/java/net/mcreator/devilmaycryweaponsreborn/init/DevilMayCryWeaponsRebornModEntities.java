@@ -4,14 +4,13 @@
  */
 package net.mcreator.devilmaycryweaponsreborn.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.core.registries.Registries;
 
 import net.mcreator.devilmaycryweaponsreborn.entity.KalinaAnnIProjectileEntity;
 import net.mcreator.devilmaycryweaponsreborn.entity.KalinaAnnIIProjectileEntity;
@@ -22,26 +21,26 @@ import net.mcreator.devilmaycryweaponsreborn.entity.BulletPlaceholderEntity;
 import net.mcreator.devilmaycryweaponsreborn.entity.BlueRoseProjectileEntity;
 import net.mcreator.devilmaycryweaponsreborn.DevilMayCryWeaponsRebornMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DevilMayCryWeaponsRebornModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, DevilMayCryWeaponsRebornMod.MODID);
-	public static final RegistryObject<EntityType<EbonyProjectileEntity>> EBONY_PROJECTILE = register("projectile_ebony_projectile", EntityType.Builder.<EbonyProjectileEntity>of(EbonyProjectileEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(EbonyProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<CoyoteAProjectileEntity>> COYOTE_A_PROJECTILE = register("projectile_coyote_a_projectile", EntityType.Builder.<CoyoteAProjectileEntity>of(CoyoteAProjectileEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(CoyoteAProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<IvoryProjectileEntity>> IVORY_PROJECTILE = register("projectile_ivory_projectile", EntityType.Builder.<IvoryProjectileEntity>of(IvoryProjectileEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(IvoryProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<KalinaAnnIProjectileEntity>> KALINA_ANN_I_PROJECTILE = register("projectile_kalina_ann_i_projectile", EntityType.Builder
-			.<KalinaAnnIProjectileEntity>of(KalinaAnnIProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(KalinaAnnIProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<KalinaAnnIIProjectileEntity>> KALINA_ANN_II_PROJECTILE = register("projectile_kalina_ann_ii_projectile",
-			EntityType.Builder.<KalinaAnnIIProjectileEntity>of(KalinaAnnIIProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(KalinaAnnIIProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<BlueRoseProjectileEntity>> BLUE_ROSE_PROJECTILE = register("projectile_blue_rose_projectile", EntityType.Builder.<BlueRoseProjectileEntity>of(BlueRoseProjectileEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(BlueRoseProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<BulletPlaceholderEntity>> BULLET_PLACEHOLDER = register("projectile_bullet_placeholder", EntityType.Builder.<BulletPlaceholderEntity>of(BulletPlaceholderEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(BulletPlaceholderEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, DevilMayCryWeaponsRebornMod.MODID);
+	public static final DeferredHolder<EntityType<?>, EntityType<CoyoteAProjectileEntity>> COYOTE_A_PROJECTILE = register("coyote_a_projectile",
+			EntityType.Builder.<CoyoteAProjectileEntity>of(CoyoteAProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<EbonyProjectileEntity>> EBONY_PROJECTILE = register("ebony_projectile",
+			EntityType.Builder.<EbonyProjectileEntity>of(EbonyProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<IvoryProjectileEntity>> IVORY_PROJECTILE = register("ivory_projectile",
+			EntityType.Builder.<IvoryProjectileEntity>of(IvoryProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<KalinaAnnIProjectileEntity>> KALINA_ANN_I_PROJECTILE = register("kalina_ann_i_projectile",
+			EntityType.Builder.<KalinaAnnIProjectileEntity>of(KalinaAnnIProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<KalinaAnnIIProjectileEntity>> KALINA_ANN_II_PROJECTILE = register("kalina_ann_ii_projectile",
+			EntityType.Builder.<KalinaAnnIIProjectileEntity>of(KalinaAnnIIProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<BlueRoseProjectileEntity>> BLUE_ROSE_PROJECTILE = register("blue_rose_projectile",
+			EntityType.Builder.<BlueRoseProjectileEntity>of(BlueRoseProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<BulletPlaceholderEntity>> BULLET_PLACEHOLDER = register("bullet_placeholder",
+			EntityType.Builder.<BulletPlaceholderEntity>of(BulletPlaceholderEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
-	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
+	// Start of user code block custom entities
+	// End of user code block custom entities
+	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
 	}
 }

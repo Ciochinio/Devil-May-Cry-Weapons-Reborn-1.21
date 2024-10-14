@@ -4,9 +4,8 @@
  */
 package net.mcreator.devilmaycryweaponsreborn.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredItem;
 
 import net.minecraft.world.item.Item;
 
@@ -29,21 +28,23 @@ import net.mcreator.devilmaycryweaponsreborn.item.BlueRoseBulletItem;
 import net.mcreator.devilmaycryweaponsreborn.DevilMayCryWeaponsRebornMod;
 
 public class DevilMayCryWeaponsRebornModItems {
-	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DevilMayCryWeaponsRebornMod.MODID);
-	public static final RegistryObject<Item> RED_QUEEN = REGISTRY.register("red_queen", () -> new RedQueenItem());
-	public static final RegistryObject<Item> REBELLION = REGISTRY.register("rebellion", () -> new RebellionItem());
-	public static final RegistryObject<Item> DEVIL_SWORD_DANTE = REGISTRY.register("devil_sword_dante", () -> new DevilSwordDanteItem());
-	public static final RegistryObject<Item> YAMATO = REGISTRY.register("yamato", () -> new YamatoItem());
-	public static final RegistryObject<Item> DEVIL_SWORD_SPARDA = REGISTRY.register("devil_sword_sparda", () -> new DevilSwordSpardaItem());
-	public static final RegistryObject<Item> DR_FAUST_HELMET = REGISTRY.register("dr_faust_helmet", () -> new DrFaustItem.Helmet());
-	public static final RegistryObject<Item> DMC = REGISTRY.register("dmc", () -> new DMCItem());
-	public static final RegistryObject<Item> KALINA_ANN_1_BULLET = REGISTRY.register("kalina_ann_1_bullet", () -> new KalinaAnn1BulletItem());
-	public static final RegistryObject<Item> KALINA_ANN_2_BULLET = REGISTRY.register("kalina_ann_2_bullet", () -> new KalinaAnn2BulletItem());
-	public static final RegistryObject<Item> BLUE_ROSE_BULLET = REGISTRY.register("blue_rose_bullet", () -> new BlueRoseBulletItem());
-	public static final RegistryObject<Item> COYOTE_A = REGISTRY.register("coyote_a", () -> new CoyoteAItem());
-	public static final RegistryObject<Item> EBONY = REGISTRY.register("ebony", () -> new EbonyItem());
-	public static final RegistryObject<Item> IVORY = REGISTRY.register("ivory", () -> new IvoryItem());
-	public static final RegistryObject<Item> KALINA_ANN_I = REGISTRY.register("kalina_ann_i", () -> new KalinaAnnIItem());
-	public static final RegistryObject<Item> KALINA_ANN_II = REGISTRY.register("kalina_ann_ii", () -> new KalinaAnnIIItem());
-	public static final RegistryObject<Item> BLUE_ROSE = REGISTRY.register("blue_rose", () -> new BlueRoseItem());
+	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(DevilMayCryWeaponsRebornMod.MODID);
+	public static final DeferredItem<Item> RED_QUEEN = REGISTRY.register("red_queen", RedQueenItem::new);
+	public static final DeferredItem<Item> REBELLION = REGISTRY.register("rebellion", RebellionItem::new);
+	public static final DeferredItem<Item> DMC = REGISTRY.register("dmc", DMCItem::new);
+	public static final DeferredItem<Item> DEVIL_SWORD_DANTE = REGISTRY.register("devil_sword_dante", DevilSwordDanteItem::new);
+	public static final DeferredItem<Item> YAMATO = REGISTRY.register("yamato", YamatoItem::new);
+	public static final DeferredItem<Item> DR_FAUST_HELMET = REGISTRY.register("dr_faust_helmet", DrFaustItem.Helmet::new);
+	public static final DeferredItem<Item> DEVIL_SWORD_SPARDA = REGISTRY.register("devil_sword_sparda", DevilSwordSpardaItem::new);
+	public static final DeferredItem<Item> KALINA_ANN_1_BULLET = REGISTRY.register("kalina_ann_1_bullet", KalinaAnn1BulletItem::new);
+	public static final DeferredItem<Item> KALINA_ANN_2_BULLET = REGISTRY.register("kalina_ann_2_bullet", KalinaAnn2BulletItem::new);
+	public static final DeferredItem<Item> BLUE_ROSE_BULLET = REGISTRY.register("blue_rose_bullet", BlueRoseBulletItem::new);
+	public static final DeferredItem<Item> COYOTE_A = REGISTRY.register("coyote_a", CoyoteAItem::new);
+	public static final DeferredItem<Item> EBONY = REGISTRY.register("ebony", EbonyItem::new);
+	public static final DeferredItem<Item> IVORY = REGISTRY.register("ivory", IvoryItem::new);
+	public static final DeferredItem<Item> KALINA_ANN_I = REGISTRY.register("kalina_ann_i", KalinaAnnIItem::new);
+	public static final DeferredItem<Item> KALINA_ANN_II = REGISTRY.register("kalina_ann_ii", KalinaAnnIIItem::new);
+	public static final DeferredItem<Item> BLUE_ROSE = REGISTRY.register("blue_rose", BlueRoseItem::new);
+	// Start of user code block custom items
+	// End of user code block custom items
 }
