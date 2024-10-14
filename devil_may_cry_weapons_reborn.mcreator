@@ -18,8 +18,8 @@
       "registry_name": "red_queen",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/RedQueenItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/red_queen.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/red_queen.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/RedQueenItem.java"
         ]
       },
       "path": "~/Swords/RedQueen"
@@ -33,7 +33,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/rebellion.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/RebellionItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/RebellionItem.java"
         ]
       },
       "path": "~/Swords/Rebellion"
@@ -46,8 +46,8 @@
       "registry_name": "dmc",
       "metadata": {
         "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/dmc.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/DMCItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DMCItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/dmc.json"
         ]
       }
     },
@@ -59,7 +59,7 @@
       "registry_name": "devil_sword_dante",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/DevilSwordDanteItem.java",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DevilSwordDanteItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_dante.json"
         ]
       },
@@ -73,7 +73,7 @@
       "registry_name": "yamato",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/YamatoItem.java",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/YamatoItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/yamato.json"
         ]
       },
@@ -87,7 +87,7 @@
       "registry_name": "dr_faust_helmet_tick_event",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/DrFaustHelmetTickEventProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/DrFaustHelmetTickEventProcedure.java"
         ],
         "dependencies": [
           {
@@ -110,7 +110,7 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/DrFaustItem.java",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DrFaustItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/dr_faust_helmet.json"
         ]
       },
@@ -240,7 +240,7 @@
       "registry_name": "red_queen_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/RedQueenLivingEntityIsHitWithToolProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/RedQueenLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -271,7 +271,7 @@
       "registry_name": "yamato_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/YamatoLivingEntityIsHitWithToolProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/YamatoLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -302,7 +302,7 @@
       "registry_name": "rebellion_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/RebellionLivingEntityIsHitWithToolProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/RebellionLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -333,7 +333,7 @@
       "registry_name": "devil_sword_dante_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/DevilSwordDanteLivingEntityIsHitWithToolProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/DevilSwordDanteLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -364,7 +364,7 @@
       "registry_name": "devil_sword_sparda_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/DevilSwordSpardaLivingEntityIsHitWithToolProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/DevilSwordSpardaLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -395,7 +395,7 @@
       "registry_name": "coyote_a_ranged_item_used",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/CoyoteARangedItemUsedProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/CoyoteARangedItemUsedProcedure.java"
         ],
         "dependencies": [
           {
@@ -430,7 +430,7 @@
       "registry_name": "ivory_ranged_item_used",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/IvoryRangedItemUsedProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/IvoryRangedItemUsedProcedure.java"
         ],
         "dependencies": [
           {
@@ -465,7 +465,7 @@
       "registry_name": "ebony_ranged_item_used",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/EbonyRangedItemUsedProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/EbonyRangedItemUsedProcedure.java"
         ],
         "dependencies": [
           {
@@ -500,8 +500,8 @@
       "registry_name": "devil_sword_sparda",
       "metadata": {
         "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_sparda.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/DevilSwordSpardaItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DevilSwordSpardaItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_sparda.json"
         ]
       },
       "path": "~/Swords/DevilSwordSparda"
@@ -514,7 +514,7 @@
       "registry_name": "kalina_ann_i_ranged_item_used",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/KalinaAnnIRangedItemUsedProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/KalinaAnnIRangedItemUsedProcedure.java"
         ],
         "dependencies": [
           {
@@ -549,7 +549,7 @@
       "registry_name": "kalina_ann_ii_ranged_item_used",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/KalinaAnnIIRangedItemUsedProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/KalinaAnnIIRangedItemUsedProcedure.java"
         ],
         "dependencies": [
           {
@@ -584,7 +584,7 @@
       "registry_name": "kalina_ann_ii_projectile_hits_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/KalinaAnnIIProjectileHitsBlockProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/KalinaAnnIIProjectileHitsBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -616,7 +616,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_1_bullet.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/KalinaAnn1BulletItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnn1BulletItem.java"
         ]
       },
       "path": "~/Guns/Bullets"
@@ -629,7 +629,7 @@
       "registry_name": "kalina_ann_2_bullet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/KalinaAnn2BulletItem.java",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnn2BulletItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_2_bullet.json"
         ]
       },
@@ -643,7 +643,7 @@
       "registry_name": "blue_rose_bullet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/BlueRoseBulletItem.java",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/BlueRoseBulletItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/blue_rose_bullet.json"
         ]
       },
@@ -657,7 +657,7 @@
       "registry_name": "kalina_ann_i_projectile_hits_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/KalinaAnnIProjectileHitsBlockProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/KalinaAnnIProjectileHitsBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -688,7 +688,7 @@
       "registry_name": "kalina_ann_i_while_projectile_flying_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/KalinaAnnIWhileProjectileFlyingTickProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/KalinaAnnIWhileProjectileFlyingTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -719,7 +719,7 @@
       "registry_name": "kalina_ann_ii_while_projectile_flying_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/KalinaAnnIIWhileProjectileFlyingTickProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/KalinaAnnIIWhileProjectileFlyingTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -789,7 +789,7 @@
       "registry_name": "coyote_a_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/entity/CoyoteAProjectileEntity.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/entity/CoyoteAProjectileEntity.java"
         ]
       },
       "path": "~/Guns/CoyoteA"
@@ -802,7 +802,7 @@
       "registry_name": "coyote_a",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/CoyoteAItem.java",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/CoyoteAItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/coyote_a.json"
         ]
       },
@@ -816,7 +816,7 @@
       "registry_name": "ebony_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/entity/EbonyProjectileEntity.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/entity/EbonyProjectileEntity.java"
         ]
       },
       "path": "~/Guns/Ebony"
@@ -829,8 +829,8 @@
       "registry_name": "ebony",
       "metadata": {
         "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ebony.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/EbonyItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/EbonyItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ebony.json"
         ]
       },
       "path": "~/Guns/Ebony"
@@ -843,7 +843,7 @@
       "registry_name": "ivory_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/entity/IvoryProjectileEntity.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/entity/IvoryProjectileEntity.java"
         ]
       },
       "path": "~/Guns/Ivory"
@@ -856,7 +856,7 @@
       "registry_name": "ivory",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/IvoryItem.java",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/IvoryItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ivory.json"
         ]
       },
@@ -870,7 +870,7 @@
       "registry_name": "kalina_ann_i_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/entity/KalinaAnnIProjectileEntity.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/entity/KalinaAnnIProjectileEntity.java"
         ]
       },
       "path": "~/Guns/Kalinann1"
@@ -884,7 +884,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_i.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/KalinaAnnIItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnnIItem.java"
         ]
       },
       "path": "~/Guns/Kalinann1"
@@ -897,7 +897,7 @@
       "registry_name": "kalina_ann_ii_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/entity/KalinaAnnIIProjectileEntity.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/entity/KalinaAnnIIProjectileEntity.java"
         ]
       },
       "path": "~/Guns/Kalinann2"
@@ -910,8 +910,8 @@
       "registry_name": "kalina_ann_ii",
       "metadata": {
         "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_ii.json",
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/KalinaAnnIIItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnnIIItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_ii.json"
         ]
       },
       "path": "~/Guns/Kalinann2"
@@ -924,7 +924,7 @@
       "registry_name": "blue_rose_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/entity/BlueRoseProjectileEntity.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/entity/BlueRoseProjectileEntity.java"
         ]
       },
       "path": "~/Guns/BlueRose"
@@ -937,7 +937,7 @@
       "registry_name": "blue_rose",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/item/BlueRoseItem.java",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/BlueRoseItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/blue_rose.json"
         ]
       },
@@ -951,7 +951,7 @@
       "registry_name": "bullet_placeholder",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/entity/BulletPlaceholderEntity.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/entity/BulletPlaceholderEntity.java"
         ]
       },
       "path": "~/Guns/Bullets"
@@ -964,7 +964,7 @@
       "registry_name": "blue_rose_used",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/devilmaycryweaponsreborn/procedures/BlueRoseUsedProcedure.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/procedures/BlueRoseUsedProcedure.java"
         ],
         "dependencies": [
           {
@@ -1243,7 +1243,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "http://redboltmedia.net/",
-    "modElementsPackage": "net.mcreator.devilmaycryweaponsreborn"
+    "modElementsPackage": "net.rbm.devilmaycryweaponsreborn"
   },
   "mcreatorVersion": 202400340615
 }
