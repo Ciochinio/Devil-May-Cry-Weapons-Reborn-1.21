@@ -1,14 +1,14 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 2,
     "blockingRenderType": 0,
     "texture": "dmc",
-    "customModelName": "spada:default",
+    "customModelName": "yamato:default",
     "blockingModelName": "Normal blocking",
-    "name": "Devil Sword Sparda",
+    "name": "Yamato",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,9 +17,9 @@
         "value": "CUSTOM:DevilMayCryInv"
       }
     ],
-    "efficiency": 9.0,
+    "efficiency": 2.0,
     "attackSpeed": 1.6,
-    "enchantability": 15,
+    "enchantability": 1,
     "damageVsEntity": 13.0,
     "usageCount": 0,
     "glowCondition": {
@@ -27,12 +27,12 @@
     },
     "repairItems": [],
     "immuneToFire": true,
-    "blockDropsTier": "NETHERITE",
+    "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "DevilSwordSpardaLivingEntityIsHitWithTool"
+      "name": "YamatoLivingEntityIsHitWithTool"
     }
   }
 }

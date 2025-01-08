@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DevilSwordSparda"
+      "value": "CUSTOM:DevilSwordSpardaSword"
     },
     "name": "devil_sword_sparda_recipe",
     "namespace": "mod"

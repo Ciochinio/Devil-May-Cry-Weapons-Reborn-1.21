@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RedQueen"
+      "value": "CUSTOM:RedQueenSword"
     },
     "name": "red_queen_recipe",
     "namespace": "mod"

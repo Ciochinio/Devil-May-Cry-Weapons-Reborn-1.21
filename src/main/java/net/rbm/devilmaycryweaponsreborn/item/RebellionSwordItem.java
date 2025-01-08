@@ -1,7 +1,7 @@
 
 package net.rbm.devilmaycryweaponsreborn.item;
 
-import net.rbm.devilmaycryweaponsreborn.procedures.DevilSwordDanteLivingEntityIsHitWithToolProcedure;
+import net.rbm.devilmaycryweaponsreborn.procedures.RebellionLivingEntityIsHitWithToolProcedure;
 import net.rbm.devilmaycryweaponsreborn.init.DevilMayCryWeaponsRebornModItems;
 
 import net.neoforged.neoforge.event.ModifyDefaultComponentsEvent;
@@ -20,7 +20,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.core.component.DataComponents;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
-public class DevilSwordDanteItem extends SwordItem {
+public class RebellionSwordItem extends SwordItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
@@ -39,7 +39,7 @@ public class DevilSwordDanteItem extends SwordItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
+			return BlockTags.INCORRECT_FOR_WOODEN_TOOL;
 		}
 
 		@Override
@@ -53,19 +53,19 @@ public class DevilSwordDanteItem extends SwordItem {
 		}
 	};
 
-	public DevilSwordDanteItem() {
+	public RebellionSwordItem() {
 		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 12f, -2.4f)).fireResistant());
 	}
 
 	@SubscribeEvent
 	public static void handleToolDamage(ModifyDefaultComponentsEvent event) {
-		event.modify(DevilMayCryWeaponsRebornModItems.DEVIL_SWORD_DANTE.get(), builder -> builder.remove(DataComponents.MAX_DAMAGE));
+		event.modify(DevilMayCryWeaponsRebornModItems.REBELLION_SWORD.get(), builder -> builder.remove(DataComponents.MAX_DAMAGE));
 	}
 
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		DevilSwordDanteLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		RebellionLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
 		return retval;
 	}
 }

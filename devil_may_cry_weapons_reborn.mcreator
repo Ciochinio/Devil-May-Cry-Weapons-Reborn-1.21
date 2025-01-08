@@ -11,34 +11,6 @@
       }
     },
     {
-      "name": "RedQueen",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_queen",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/red_queen.json",
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/RedQueenItem.java"
-        ]
-      },
-      "path": "~/Swords/RedQueen"
-    },
-    {
-      "name": "Rebellion",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rebellion",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/rebellion.json",
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/RebellionItem.java"
-        ]
-      },
-      "path": "~/Swords/Rebellion"
-    },
-    {
       "name": "DMC",
       "type": "item",
       "compiles": true,
@@ -50,34 +22,6 @@
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/dmc.json"
         ]
       }
-    },
-    {
-      "name": "DevilSwordDante",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "devil_sword_dante",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DevilSwordDanteItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_dante.json"
-        ]
-      },
-      "path": "~/Swords/DevilSwordDante"
-    },
-    {
-      "name": "Yamato",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "yamato",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/YamatoItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/yamato.json"
-        ]
-      },
-      "path": "~/Swords/Yamato"
     },
     {
       "name": "DrFaustHelmetTickEvent",
@@ -115,18 +59,6 @@
         ]
       },
       "path": "~/Guns"
-    },
-    {
-      "name": "LT",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lt",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/devil_may_cry_weapons_reborn/loot_table/chests/lt.json"
-        ]
-      }
     },
     {
       "name": "RedQueenRecipe",
@@ -491,20 +423,6 @@
         ]
       },
       "path": "~/Guns/Ebony"
-    },
-    {
-      "name": "DevilSwordSparda",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "devil_sword_sparda",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DevilSwordSpardaItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_sparda.json"
-        ]
-      },
-      "path": "~/Swords/DevilSwordSparda"
     },
     {
       "name": "KalinaAnnIRangedItemUsed",
@@ -990,6 +908,76 @@
         ]
       },
       "path": "~/Guns/BlueRose"
+    },
+    {
+      "name": "DevilSwordDanteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devil_sword_dante_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_dante_sword.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DevilSwordDanteSwordItem.java"
+        ]
+      },
+      "path": "~/Swords/DevilSwordDante"
+    },
+    {
+      "name": "RedQueenSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_queen_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/red_queen_sword.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/RedQueenSwordItem.java"
+        ]
+      },
+      "path": "~/Swords/RedQueen"
+    },
+    {
+      "name": "RebellionSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rebellion_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/RebellionSwordItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/rebellion_sword.json"
+        ]
+      },
+      "path": "~/Swords/Rebellion"
+    },
+    {
+      "name": "YamatoSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yamato_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/yamato_sword.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/YamatoSwordItem.java"
+        ]
+      },
+      "path": "~/Swords/Yamato"
+    },
+    {
+      "name": "DevilSwordSpardaSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devil_sword_sparda_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DevilSwordSpardaSwordItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_sparda_sword.json"
+        ]
+      },
+      "path": "~/Swords/DevilSwordSparda"
     }
   ],
   "variable_elements": [],
@@ -1093,11 +1081,11 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:DevilSwordSparda",
-      "~CUSTOM:Yamato",
-      "~CUSTOM:DevilSwordDante",
-      "~CUSTOM:Rebellion",
-      "~CUSTOM:RedQueen"
+      "~CUSTOM:DevilSwordSpardaSword",
+      "~CUSTOM:YamatoSword",
+      "~CUSTOM:RebellionSword",
+      "~CUSTOM:RedQueenSword",
+      "~CUSTOM:DevilSwordDanteSword"
     ],
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:DrFaust.helmet"
@@ -1109,27 +1097,27 @@
       "subtitles.yamato.swing1": "",
       "subtitles.maxact": "",
       "item.devil_may_cry_weapons_reborn.coyote_a": "Coyote-A",
-      "item.devil_may_cry_weapons_reborn.devil_sword_sparda": "Devil Sword Sparda",
-      "item.devil_may_cry_weapons_reborn.rebellion": "Rebellion",
-      "item.devil_may_cry_weapons_reborn.devil_sword_dante": "Devil Sword Dante",
       "item.devil_may_cry_weapons_reborn.kalina_ann_i": "Kalina Ann I",
       "subtitles.rebellion.swing": "",
       "subtitles.dante": "",
       "subtitles.bluerose.shot1": "",
       "subtitles.coyotea.hit": "",
-      "subtitles.yamato": "",
       "itemGroup.tabdevil_may_cry_inv": "Devil May Cry ",
+      "subtitles.yamato": "",
       "item.devil_may_cry_weapons_rebirth.yamato": "Yamato",
       "subtitles.dante.swing": "",
       "subtitles.coyotea.shot1": "",
       "subtitles.ebony.ivory.hit": "",
+      "item.devil_may_cry_weapons_reborn.red_queen_sword": "Red Queen",
       "item.devil_may_cry_weapons_reborn.ebony": "Ebony",
       "subtitles.kalinaann.shot1": "",
-      "item.devil_may_cry_weapons_reborn.red_queen": "Red Queen",
+      "item.devil_may_cry_weapons_reborn.devil_sword_dante_sword": "Devil Sword Dante",
       "subtitles.kalinaann.shot2": "",
       "item.devil_may_cry_weapons_rebirth.dr_faust_boots": "Dr Faust Boots",
       "item.devil_may_cry_weapons_reborn.kalina_ann_2_bullet": "Kalina Ann 2 Bullet",
+      "item.devil_may_cry_weapons_reborn.rebellion_sword": "Rebellion",
       "item.devil_may_cry_weapons_reborn.dr_faust_helmet": "Dr Faust",
+      "item.devil_may_cry_weapons_reborn.devil_sword_sparda_sword": "Devil Sword Sparda",
       "item.devil_may_cry_weapons_reborn.blue_rose": "Blue Rose",
       "item.devil_may_cry_weapons_rebirth.dmc": "DMC",
       "item.devil_may_cry_weapons_rebirth.coyote_a": "Coyote-A",
@@ -1144,13 +1132,13 @@
       "item.devil_may_cry_weapons_rebirth.dr_faust_leggings": "Dr Faust Leggings",
       "item_group.devil_may_cry_weapons_reborn.devil_may_cry_inv": "Devil May Cry ",
       "item.devil_may_cry_weapons_rebirth.red_queen": "Red Queen",
+      "item.devil_may_cry_weapons_reborn.yamato_sword": "Yamato",
       "subtitles.redqueen.swing": "",
       "subtitles.redqueen.swing1": "",
       "item.devil_may_cry_weapons_reborn.ivory": "Ivory",
       "subtitles.yoda": "",
       "item.devil_may_cry_weapons_reborn.blue_rose_bullet": "Blue Rose Bullet",
       "subtitles.devilsworddante.swing1": "",
-      "item.devil_may_cry_weapons_reborn.yamato": "Yamato",
       "item.devil_may_cry_weapons_reborn.dmc": "DMC",
       "subtitles.kalinann": "",
       "item.devil_may_cry_weapons_rebirth.ebony": "Ebony",
@@ -1230,7 +1218,7 @@
   "workspaceSettings": {
     "modid": "devil_may_cry_weapons_reborn",
     "modName": "Devil May Cry Weapons Reborn",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "description": "DMC Weapons In modern Minecraft!",
     "author": "Ciochu, RedBoltMedia",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/devil-may-cry-weapons-reborn",
@@ -1245,5 +1233,5 @@
     "credits": "http://redboltmedia.net/",
     "modElementsPackage": "net.rbm.devilmaycryweaponsreborn"
   },
-  "mcreatorVersion": 202400340615
+  "mcreatorVersion": 202400451119
 }

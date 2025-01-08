@@ -1,7 +1,7 @@
 
 package net.rbm.devilmaycryweaponsreborn.item;
 
-import net.rbm.devilmaycryweaponsreborn.procedures.RebellionLivingEntityIsHitWithToolProcedure;
+import net.rbm.devilmaycryweaponsreborn.procedures.DevilSwordDanteLivingEntityIsHitWithToolProcedure;
 import net.rbm.devilmaycryweaponsreborn.init.DevilMayCryWeaponsRebornModItems;
 
 import net.neoforged.neoforge.event.ModifyDefaultComponentsEvent;
@@ -20,7 +20,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.core.component.DataComponents;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
-public class RebellionItem extends SwordItem {
+public class DevilSwordDanteSwordItem extends SwordItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
@@ -53,19 +53,19 @@ public class RebellionItem extends SwordItem {
 		}
 	};
 
-	public RebellionItem() {
+	public DevilSwordDanteSwordItem() {
 		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 12f, -2.4f)).fireResistant());
 	}
 
 	@SubscribeEvent
 	public static void handleToolDamage(ModifyDefaultComponentsEvent event) {
-		event.modify(DevilMayCryWeaponsRebornModItems.REBELLION.get(), builder -> builder.remove(DataComponents.MAX_DAMAGE));
+		event.modify(DevilMayCryWeaponsRebornModItems.DEVIL_SWORD_DANTE_SWORD.get(), builder -> builder.remove(DataComponents.MAX_DAMAGE));
 	}
 
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		RebellionLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		DevilSwordDanteLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
 		return retval;
 	}
 }

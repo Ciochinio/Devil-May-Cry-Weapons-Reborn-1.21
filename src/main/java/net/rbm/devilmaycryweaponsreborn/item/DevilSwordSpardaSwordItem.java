@@ -1,7 +1,7 @@
 
 package net.rbm.devilmaycryweaponsreborn.item;
 
-import net.rbm.devilmaycryweaponsreborn.procedures.YamatoLivingEntityIsHitWithToolProcedure;
+import net.rbm.devilmaycryweaponsreborn.procedures.DevilSwordSpardaLivingEntityIsHitWithToolProcedure;
 import net.rbm.devilmaycryweaponsreborn.init.DevilMayCryWeaponsRebornModItems;
 
 import net.neoforged.neoforge.event.ModifyDefaultComponentsEvent;
@@ -20,7 +20,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.core.component.DataComponents;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
-public class YamatoItem extends SwordItem {
+public class DevilSwordSpardaSwordItem extends SwordItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
@@ -29,7 +29,7 @@ public class YamatoItem extends SwordItem {
 
 		@Override
 		public float getSpeed() {
-			return 2f;
+			return 9f;
 		}
 
 		@Override
@@ -44,7 +44,7 @@ public class YamatoItem extends SwordItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 1;
+			return 15;
 		}
 
 		@Override
@@ -53,19 +53,19 @@ public class YamatoItem extends SwordItem {
 		}
 	};
 
-	public YamatoItem() {
+	public DevilSwordSpardaSwordItem() {
 		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 12f, -2.4f)).fireResistant());
 	}
 
 	@SubscribeEvent
 	public static void handleToolDamage(ModifyDefaultComponentsEvent event) {
-		event.modify(DevilMayCryWeaponsRebornModItems.YAMATO.get(), builder -> builder.remove(DataComponents.MAX_DAMAGE));
+		event.modify(DevilMayCryWeaponsRebornModItems.DEVIL_SWORD_SPARDA_SWORD.get(), builder -> builder.remove(DataComponents.MAX_DAMAGE));
 	}
 
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		YamatoLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		DevilSwordSpardaLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
 		return retval;
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Rebellion"
+      "value": "CUSTOM:RebellionSword"
     },
     "name": "rebellion_recipe",
     "namespace": "mod"

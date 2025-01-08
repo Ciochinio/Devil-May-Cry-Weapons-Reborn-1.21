@@ -1,14 +1,14 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 2,
     "blockingRenderType": 0,
     "texture": "dmc",
-    "customModelName": "redqueen:default",
+    "customModelName": "spada:default",
     "blockingModelName": "Normal blocking",
-    "name": "Red Queen",
+    "name": "Devil Sword Sparda",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,9 +17,9 @@
         "value": "CUSTOM:DevilMayCryInv"
       }
     ],
-    "efficiency": 2.0,
+    "efficiency": 9.0,
     "attackSpeed": 1.6,
-    "enchantability": 1,
+    "enchantability": 15,
     "damageVsEntity": 13.0,
     "usageCount": 0,
     "glowCondition": {
@@ -32,7 +32,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "RedQueenLivingEntityIsHitWithTool"
+      "name": "DevilSwordSpardaLivingEntityIsHitWithTool"
     }
   }
 }

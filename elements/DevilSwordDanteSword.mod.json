@@ -1,14 +1,14 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 2,
     "blockingRenderType": 0,
     "texture": "dmc",
-    "customModelName": "yamato:default",
+    "customModelName": "devilsworddante:default",
     "blockingModelName": "Normal blocking",
-    "name": "Yamato",
+    "name": "Devil Sword Dante",
     "specialInformation": {
       "fixedValue": []
     },
@@ -32,7 +32,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "YamatoLivingEntityIsHitWithTool"
+      "name": "DevilSwordDanteLivingEntityIsHitWithTool"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 2,
     "blockingRenderType": 0,
     "texture": "dmc",
-    "customModelName": "devilsworddante:default",
+    "customModelName": "redqueen:default",
     "blockingModelName": "Normal blocking",
-    "name": "Devil Sword Dante",
+    "name": "Red Queen",
     "specialInformation": {
       "fixedValue": []
     },
@@ -27,12 +27,12 @@
     },
     "repairItems": [],
     "immuneToFire": true,
-    "blockDropsTier": "NETHERITE",
+    "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "DevilSwordDanteLivingEntityIsHitWithTool"
+      "name": "RedQueenLivingEntityIsHitWithTool"
     }
   }
 }

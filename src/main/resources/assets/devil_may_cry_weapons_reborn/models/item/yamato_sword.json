@@ -1,18 +1,18 @@
 {
   "forge_marker": 1,
-  "parent": "neoforge:item/default",
-  "loader": "neoforge:obj",
-  "model": "devil_may_cry_weapons_reborn:models/item/redqueen.obj",
-  "display" : {
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "devil_may_cry_weapons_reborn:models/item/yamato.obj",
+	"display" : {
     "thirdperson_righthand": {
             "rotation": [ 0, 188, 0 ],
-            "translation": [ -16.60, 3.5, -10.7 ],
-            "scale": [ 1.80, 1.80, 1.80 ]
+            "translation": [ -11.60, 2.0, -6.7 ],
+            "scale": [ 1.30, 1.30, 1.30 ]
         },
         "thirdperson_lefthand": {
           "rotation": [ 0, 188, 0 ],
-          "translation": [ 12.00, 3.5, -15.7 ],
-            "scale": [ 1.80, 1.80, 1.80 ]
+          "translation": [ 9.00, 2.0, -9.7 ],
+            "scale": [ 1.30, 1.30, 1.30 ]
         },
         "firstperson_righthand": {
           "rotation": [ 0, 190, 0 ],
@@ -27,7 +27,7 @@
         "gui": {
           "rotation": [ 96, 50, 216 ],
           "translation": [ 0.10, -15.00, 0.00 ],
-          "scale": [ 1.40, 1.40, 1.40 ]
+          "scale": [ 1.20, 1.20, 1.20 ]
         },
         "head": {
           "rotation": [ 0, 0, 0 ],
@@ -45,4 +45,4 @@
           "scale": [ 1.20, 1.20, 1.20 ]
         }
 }
-} 
+}
