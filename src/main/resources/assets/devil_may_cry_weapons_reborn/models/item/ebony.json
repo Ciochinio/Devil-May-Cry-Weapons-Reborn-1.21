@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
-  "parent": "forge:item/default",
-  "loader": "forge:obj",
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
   "model": "devil_may_cry_weapons_reborn:models/item/ebony.obj",
   "display": {
     "thirdperson_righthand": {
