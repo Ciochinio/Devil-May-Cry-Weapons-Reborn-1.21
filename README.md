@@ -5,6 +5,7 @@
 ### Devil May Cry weapons, recreated for Minecraft
 
 [![CurseForge](https://img.shields.io/badge/CurseForge-Available-orange?style=flat-square&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/devil-may-cry-weapons-reborn)
+[![Modrinth](https://img.shields.io/badge/Modrinth-Available-brightgreen?style=flat-square&logo=modrinth)](https://modrinth.com/mod/devil-may-cry-weapons-reborn)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green?style=flat-square)](https://minecraft.net)
 [![NeoForge](https://img.shields.io/badge/NeoForge-21.1.65%2B-blue?style=flat-square)](https://neoforged.net)
 [![Version](https://img.shields.io/badge/Version-1.5.2-purple?style=flat-square)]()
@@ -47,13 +48,6 @@ DMC Weapons Reborn is a NeoForge mod for Minecraft 1.21.1 that brings iconic wea
 | **Kalina Ann I** | Kalina Ann 1 Bullet | Lady's rocket launcher — fires explosive projectiles |
 | **Kalina Ann II** | Kalina Ann 2 Bullet | Upgraded variant with enhanced explosive impact |
 
-### Gear
-
-| Item | Description |
-|------|-------------|
-| **Dr. Faust** | Dante's iconic hat |
-| **DMC** | The Devil May Cry emblem item |
-
 ---
 
 ## Features
@@ -86,8 +80,10 @@ DMC Weapons Reborn is a NeoForge mod for Minecraft 1.21.1 that brings iconic wea
 
 | | |
 |--|--|
-| CurseForge | [https://www.curseforge.com/minecraft/mc-mods/devil-may-cry-weapons-reborn](https://www.curseforge.com/minecraft/mc-mods/devil-may-cry-weapons-reborn) |
-| WitcherCraft (sister mod) | [https://www.curseforge.com/minecraft/mc-mods/witchercraft](https://www.curseforge.com/minecraft/mc-mods/witchercraft) |
+| CurseForge | https://www.curseforge.com/minecraft/mc-mods/devil-may-cry-weapons-reborn |
+| Modrinth | https://modrinth.com/mod/devil-may-cry-weapons-reborn |
+| Discord | https://discord.com/invite/xReJfktHS2 |
+| WitcherCraft | https://www.curseforge.com/minecraft/mc-mods/witchercraft |
 
 ---
 
