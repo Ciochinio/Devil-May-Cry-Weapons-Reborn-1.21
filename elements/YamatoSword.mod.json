@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 85,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -9,6 +9,7 @@
     "customModelName": "yamato:default",
     "blockingModelName": "Normal blocking",
     "name": "Yamato",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
@@ -29,6 +30,7 @@
     "immuneToFire": true,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {

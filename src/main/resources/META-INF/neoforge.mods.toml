@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="devil_may_cry_weapons_reborn"
-version="1.5.2"
+version="1.6.2"
 displayName="Devil May Cry Weapons Reborn"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/devil-may-cry-weapons-reborn"
 logoFile="logo.png"
@@ -15,17 +15,21 @@ description="DMC Weapons In modern Minecraft!"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
 [[dependencies.devil_may_cry_weapons_reborn]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.65,)"
+    versionRange="[21.8.31,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.devil_may_cry_weapons_reborn]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.1]"
+    versionRange="[1.21.8]"
     ordering="AFTER"
     side="BOTH"
 
